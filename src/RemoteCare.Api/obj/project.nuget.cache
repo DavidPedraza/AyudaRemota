@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "z2Zrj9OMDnk=",
+  "success": true,
+  "projectFilePath": "C:\\david\\ayudaremota\\src\\RemoteCare.Api\\RemoteCare.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.aspnetcore.signalr\\1.2.9\\microsoft.aspnetcore.signalr.1.2.9.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.16.0\\microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.16.0\\microsoft.identitymodel.jsonwebtokens.8.16.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.identitymodel.logging\\8.16.0\\microsoft.identitymodel.logging.8.16.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.16.0\\microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\qrcoder\\1.7.0\\qrcoder.1.7.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.16.0\\system.identitymodel.tokens.jwt.8.16.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.SignalR will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\david\\ayudaremota\\src\\RemoteCare.Api\\RemoteCare.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\david\\ayudaremota\\src\\RemoteCare.Api\\RemoteCare.Api.csproj",
+      "libraryId": "Microsoft.AspNetCore.SignalR",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

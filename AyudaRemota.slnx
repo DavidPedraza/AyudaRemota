@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RemoteCare.Api/RemoteCare.Api.csproj" />
+    <Project Path="src/RemoteCare.Common/RemoteCare.Common.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RemoteCare.Api.Tests/RemoteCare.Api.Tests.csproj" />
+  </Folder>
+</Solution>
