@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xUMR15613TB89cLCKYuDnO3ButQjmVOmTtZCapiURHw=",
+  "Source": "RemoteCare.Api",
+  "BasePath": "_content/RemoteCare.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
