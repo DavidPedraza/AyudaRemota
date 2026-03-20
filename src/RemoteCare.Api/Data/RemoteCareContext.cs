@@ -15,6 +15,8 @@ namespace RemoteCare.Api.Data
         public DbSet<Session> Sessions { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }
+        public DbSet<PairingCode> PairingCodes { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -83,6 +85,17 @@ namespace RemoteCare.Api.Data
                     .HasForeignKey(e => e.UserId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
+            // PairingCode configuration
+            modelBuilder.Entity<PairingCode>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.HasIndex(e => e.Code).IsUnique();
+                entity.HasOne(e => e.SeniorDevice)
+                    .WithMany()
+                    .HasForeignKey(e => e.SeniorDeviceId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
+
         }
     }
 }

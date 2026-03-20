@@ -1,0 +1,12 @@
+C:\David\AyudaRemota\src\RemoteCare.Common\bin\Debug\net8.0\RemoteCare.Common.deps.json
+C:\David\AyudaRemota\src\RemoteCare.Common\bin\Debug\net8.0\RemoteCare.Common.dll
+C:\David\AyudaRemota\src\RemoteCare.Common\bin\Debug\net8.0\RemoteCare.Common.pdb
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.AssemblyInfoInputs.cache
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.AssemblyInfo.cs
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.csproj.CoreCompileInputs.cache
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.sourcelink.json
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.dll
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\refint\RemoteCare.Common.dll
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\RemoteCare.Common.pdb
+C:\David\AyudaRemota\src\RemoteCare.Common\obj\Debug\net8.0\ref\RemoteCare.Common.dll

@@ -121,6 +121,44 @@ namespace RemoteCare.Api.Migrations
                     b.ToTable("Devices");
                 });
 
+            modelBuilder.Entity("RemoteCare.Api.Models.PairingCode", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("SeniorDeviceId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime?>("UsedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("UsedByDeviceId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.HasIndex("SeniorDeviceId");
+
+                    b.ToTable("PairingCodes");
+                });
+
             modelBuilder.Entity("RemoteCare.Api.Models.RefreshToken", b =>
                 {
                     b.Property<int>("Id")
@@ -292,6 +330,17 @@ namespace RemoteCare.Api.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("RemoteCare.Api.Models.PairingCode", b =>
+                {
+                    b.HasOne("RemoteCare.Api.Models.Device", "SeniorDevice")
+                        .WithMany()
+                        .HasForeignKey("SeniorDeviceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SeniorDevice");
                 });
 
             modelBuilder.Entity("RemoteCare.Api.Models.RefreshToken", b =>
