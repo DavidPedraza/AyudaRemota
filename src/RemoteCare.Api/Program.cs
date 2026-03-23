@@ -64,30 +64,19 @@ builder.Services.AddScoped<IQrGeneratorService, QrGeneratorService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    var securityScheme = new OpenApiSecurityScheme
     {
-        Name = "Authorization",
         Type = SecuritySchemeType.Http,
         Scheme = "bearer",
         BearerFormat = "JWT",
-        Description = "JWT Authorization header using the Bearer scheme."
-    });
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Description = "Enter your JWT token"
+    };
 
-    //options.AddSecurityRequirement(new OpenApiSecurityRequirement
-    //{
-    //    {
-    //        new OpenApiSecurityScheme
-    //        {
-    //            Reference = new OpenApiReference
-    //            {
-    //                Type = ReferenceType.SecurityScheme,
-    //                Id = "Bearer"
-    //            }
-    //        },
-    //        new string[] { }
-    //    }
-    //});
+    options.AddSecurityDefinition("Bearer", securityScheme);
 });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline

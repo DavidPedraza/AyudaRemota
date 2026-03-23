@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JUotDtvmB4s=",
+  "dgSpecHash": "6X0z2tD5IPc=",
   "success": true,
-  "projectFilePath": "C:\\david\\ayudaremota\\src\\remotecare.api\\RemoteCare.Api.csproj",
+  "projectFilePath": "C:\\David\\AyudaRemota\\src\\RemoteCare.Api\\RemoteCare.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\dpedraza.POOLMANAGER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
